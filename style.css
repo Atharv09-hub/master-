@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #eef2f7; /* Light blue-grey background */
+    color: #333;
+}
+
+header {
+    background: #2c3e50; /* Dark blue-grey */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+nav {
+    background: #34495e; /* Slightly lighter dark blue-grey */
+    padding: 0.8rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Changed to inline-block for better spacing */
+    margin: 0 25px; /* Increased margin for wider spacing */
+}
+
+nav ul li a {
+    color: #ecf0f1; /* Light grey */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block; /* Make the whole area clickable */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2ecc71; /* Emerald green on hover */
+    color: #fff;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px; /* Limit max width for readability */
+    margin: 30px auto;
+    overflow: hidden;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-day {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.portfolio-day:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.portfolio-day h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2ecc71;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.portfolio-day p {
+    margin-bottom: 15px;
+}
+
+.portfolio-day a.button {
+    display: inline-block;
+    background-color: #3498db; /* Peter River blue */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-day a.button:hover {
+    background-color: #2980b9; /* Darker Peter River blue */
+}
+
+footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
